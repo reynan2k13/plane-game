@@ -1,0 +1,32 @@
+{
+  "name": "canvasapp",
+  "version": "1.0.0",
+  "description": "Learn Canvas",
+  "main": "app.js",
+  "scripts": {
+    "dev-mode": "rimraf public/build&&SET NODE_ENV=development&&node app.js",
+    "test": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.10.1",
+    "postcss-loader": "^1.3.3",
+    "rimraf": "^2.6.1",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.3.2",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-hot-middleware": "^2.17.1"
+  }
+}
